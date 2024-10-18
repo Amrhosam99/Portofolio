@@ -1,0 +1,81 @@
+body{
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+a{
+    color: white !important;
+}
+.header{
+    background: url(../images/blog-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+/* start fa-arrow-down */
+.fa-arrow-down{
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+    left: calc(50% - 15px);
+    bottom: 70px;
+    animation: y 1s alternate infinite;
+}
+@keyframes y{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+/* End fa-arrow-down */
+.display-1{
+    font-size: 100px;
+    font-weight: 1000;
+}
+.position-absolute{
+    font-weight: 700;
+}
+
+/* .about{
+    background: rgb(120, 119, 135);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(127,103,92,1) 62%, rgba(0,212,255,1) 90%);
+} */
+ .gotoup{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+ }
+ .exp-item{
+    border-left: 1px solid black;
+ }
+ .quality-item{
+    transition: all 1s ease-in-out;
+ }
+ .quality-item:hover{
+    transform: scale(1.1);
+ }
+ .carousel{
+    background-color: #d2d2d2;
+ }
+ .footer i{
+    transition: all .3 ease-in;
+ }
+ .footer i:hover {
+    cursor: pointer;
+    color: red;
+    font-size: 1.3rem;
+ }
